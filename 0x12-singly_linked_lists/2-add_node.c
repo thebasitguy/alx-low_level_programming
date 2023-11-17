@@ -25,7 +25,7 @@ int _strlen(const char *s)
  * @head: head of a list_t list
  * @str: value to insert into element
  *
- * RReturn: the number of nodes
+ * Return: the number of nodes
  */
 
 list_t *add_node(list_t **head, const char *str)
