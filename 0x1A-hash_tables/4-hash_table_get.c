@@ -2,11 +2,12 @@
 
 /**
  * hash_table_get - retrieves a value associated with
- *		a key in a hash table.
- * @ht: pointer to the hash table
- * @key: key to get the value of.
+ *			a key in a hash table
  *
- * Return: value associated with key 
+ * @ht: pointer to the hash table
+ * @key: key to get the value of
+ *
+ * Return: value associated with key
  *		or NULL if key couldn’t be found
  */
 

@@ -12,7 +12,7 @@ void shash_table_delete(shash_table_t *ht);
  * @size: size of new sorted hash table
  *
  * Return: a pointer to the new sorted hash table
- * 			or NULL if an error occurs
+ *		or NULL if an error occurs
  */
 
 shash_table_t *shash_table_create(unsigned long int size)
@@ -43,7 +43,7 @@ shash_table_t *shash_table_create(unsigned long int size)
  * @key: key to add and cannot be an empty string
  * @value: value associated with key
  *
- * Return: 1 on success and 0 otherwise.
+ * Return: 1 on success and 0 otherwise
  */
 
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
@@ -122,13 +122,13 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 
 /**
  * shash_table_get - retrieves the value associated with
- *                   a key in a sorted hash table
+ *			a key in a sorted hash table
  *
  * @ht: pointer to the sorted hash table
  * @key: key to get the value of
  *
  * Return: value associated with key in ht or
- * 			NULL if the key cannot be matched
+ *		NULL if the key cannot be matched
  */
 
 char *shash_table_get(const shash_table_t *ht, const char *key)
